@@ -1,0 +1,26 @@
+﻿.detail-con {
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+
+.detail-con .title {
+    border: none;
+    font-size: 18px;
+    margin: 0;
+    height: auto;
+    color: #000000;
+    padding: 0;
+    width: 100%;
+    line-height: 50px;
+}
+
+.detail-con img {
+    display: block;
+    width: 100%;
+}
+
+.floor {
+    border-bottom: solid 1px #dcdcdc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}

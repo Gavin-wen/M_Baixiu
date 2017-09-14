@@ -1,0 +1,221 @@
+﻿/* 商品筛选页面 */
+.ui_content {
+    display: none;
+}
+
+.ui_listview {
+    font-size: .386667rem;
+    padding: .373333rem 12px;
+    color: #353535;
+    margin: 0;
+    background: #fff;
+}
+
+.ui_listtitle {
+    height: 0.586667rem;
+}
+
+.ui_listview .ui_listtitle i {
+    display: block;
+    width: 0.586667rem;
+    height: 0.586667rem;
+    background: url('/app/images/Com/arrow_down@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.ui_listview .ui_listtitle .title {
+    font-size: 0.373333rem;
+    font-weight: normal;
+    color: #333;
+    line-height: 0.586667rem;
+}
+
+.ui_listview {
+    border-bottom: solid 1px #dcdcdc;
+}
+
+.ui_content {
+    padding: 0.8rem 0 0;
+}
+
+.choice_price .ui_content {
+    padding: 0.64rem 0 0.266667rem;
+}
+.screen{
+    margin-top:-1.4rem;
+    padding-bottom:1.5rem;
+}
+.frm_radio_label3 {
+    padding: 0 0.56rem;
+    border: 1px solid #656565;
+    border-radius: 25px;
+    margin-right: 0.4rem;
+    display: inline-block;
+    margin-bottom: 0.426667rem;
+    line-height: 0.64rem;
+}
+
+    .frm_radio_label3 span {
+        color: #353535;
+        font-size: 12px;
+    }
+
+.listview_down .ui_content {
+    display: block;
+}
+
+.listview_down .ui_listtitle i {
+    background: url('/app/images/Com/arrow_up@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.rollerline {
+    height: 0.1333rem;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border: 1px solid #ff3366;
+}
+
+.form_count {
+    position: relative;
+}
+
+.rollerline .text_price {
+    position: absolute;
+    top: -30px;
+    font-size: 14px;
+}
+
+.rollerline .min-price {
+    left: -5px;
+}
+
+.rollerline .max-price {
+    right: -5px;
+}
+
+.price_content {
+    position: relative;
+    margin: 0 0.693333rem;
+    margin-top: 0.88rem;
+}
+
+.btn_roller {
+    background: #000;
+    position: absolute;
+    width: 0.533333rem;
+    height: 0.533333rem;
+    top: -0.133333rem;
+    background-color: #ff3366;
+    border-radius: 50%;
+    z-index: 11;
+    margin-left: -10px;
+}
+
+
+    .btn_roller.end {
+            right: 0;
+    margin-right: -10px;
+    left: inherit;
+    }
+
+.text_tab_price {
+    position: absolute;
+    font-size: .24rem;
+    color: #353535;
+    top: -18px;
+    right: -3px;
+}
+
+.line_bg {
+    height: 0.1067rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background: #ff3366;
+    top: 0;
+    border: 1px solid #ff3366;
+}
+/* 被选中样式 */
+.selected {
+    background: #ff3366;
+    border: none;
+}
+
+    .selected span {
+        color: #fff;
+    }
+
+/* 底部菜单 */
+.footnav_goods {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    max-width: 750px;
+    min-width: 320px;
+    padding: 0.2rem 0;
+}
+
+.ftg_btn {
+    display: inline-block;
+}
+
+.js_btnreset {
+    margin-left: 2.133333rem;
+    margin-right: 3.44rem;
+    line-height: 0.906667rem;
+}
+
+    .js_btnreset a {
+        color: #676767;
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+    }
+
+.js_conform {
+    background: #ff3366;
+    line-height: 0.906667rem;
+    width: 2.373333rem;
+    text-align: center;
+    border-radius: 25px;
+}
+
+    .js_conform a {
+        color: #fff;
+    }
+.head_title{
+    color: #353535;
+    font-size: 0.429rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.2rem;
+    position: relative;
+}
+.hd_btn_left,
+.hd_btn_right{
+    position: absolute;
+    top: 0.106667rem;
+}
+.hd_btn_left{
+    left: 0.2rem;
+}
+.header .hd_btn{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: url('/app/images/Com/arrow_left@2x.png') no-repeat;
+    background-size: cover;
+    z-index: 11;
+}
+.hd_btn_right{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: url('/app/images/My/my_order_more@2x.png') no-repeat;
+    z-index: 11;
+    right: 0.2rem;
+    background-position: 0.133333rem;
+}

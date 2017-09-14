@@ -1,0 +1,23 @@
+/*@import url(dialog.css);*/
+/*selectarea*/
+.ui-scroller{position: relative;height: 88px;width: 100%; min-width: 260px;font-size: 14px;font-weight: normal;}
+.ui-scroller>div{width: 33%;display: inline-block;position:relative;height:88px;overflow: hidden;box-sizing:border-box;float: left;}
+.ui-scroller dl{position: absolute;width: 100%;margin: 0;top:30px;}
+.ui-scroller dd{padding;0;margin:0;overflow: hidden; text-overflow:ellipsis;width:100%;height: 30px;line-height: 30px;}
+.ui-scroller dd.focus{}
+/*.ui-scroller{-webkit-mask: -webkit-gradient(linear,0% 30%,0% 100%,from(rgba(222,187,71,1)),to(rgba(36,142,36,0)));}
+.ui-scroller-mask{-webkit-mask: -webkit-gradient(linear,0% 30%,0% 0%,from(rgba(222,187,71,1)),to(rgba(36,142,36,0)));}*/
+.ui-scroller p{position: absolute;top:30px;height:30px;width: 100%;margin: 0;z-index: -1;border:1px solid #e2e2e2;border-left:none;border-right:none;}
+.ui-scroller .ui-dialog-action{margin-top: 10px;}
+
+/* updata 2015/6/8 */
+.sclbtn_w{ height: 50px;background: #eeeeee;color: #f26868;line-height: 50px;}
+.sclbtn_w span{height: 60px;display: block;width: 50px;text-align: center;cursor: pointer;}
+.sclbtn_w .close{ float: left;}
+.sclbtn_w .ok{ float: right;}
+.ui_select_ft{ max-width: 750px;min-width: 320px;margin: 0 auto;font-size: 14px;}
+.ui-scroller{margin: 1em auto;height: 143px;}
+.ui-scroller dd{ text-align: center;color: #acacac;}
+.ui-scroller p{ border-color: #dcdcdc;}
+.ui-scroller .focus{ color: #000000;font-weight: bold;}
+.ui-scroller>div{ height: 143px;}

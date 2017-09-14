@@ -1,0 +1,84 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+.zhifu_t {
+    background: #fff;
+    padding: 0.4133rem 0.32rem;
+}
+.zhifu_t span{
+    color: #333;
+    font-size: 0.4267rem;
+}
+.zhifu_list{
+    background: #fff;
+    margin-top: 5px;
+}
+.zhifu_list li{
+    margin:0 0.32rem;
+    padding: 0.2933rem 0;
+    border-bottom: 1px solid #ededed;
+}
+.zhifu_list li span{
+    font-size: 0.4267rem;
+    color: #333;
+}
+.zhifu_list li.title{
+    padding:0.3867rem 0.32rem;
+    margin: 0 0 ;
+}
+
+.zhifu_list li.title span{
+    font-size: 0.3733rem;
+}
+
+.zhifu_list li .zhifu_item .fl i {
+    display: inline-block;
+    width: 0.826667rem;
+    height: 0.826667rem;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    vertical-align: -50%;
+    margin-right: 0.32rem;
+}
+
+.zhifu_list li.alipay .zhifu_item .fl i{
+    background-image: url('/app/images/Cart/alipay@2x.png');
+}
+.zhifu_item .fr i{
+    display: inline-block;
+    width: 0.533333rem;
+    height: 0.533333rem;
+    background-image: url('/app/images/Com/icon_unselected@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.16rem;
+}
+
+.zhifu_item .fr i.active {
+    background-image: url('/app/images/Com/icon_selected@2x.png');
+}
+
+.zhifu_list li.wechat .zhifu_item .fl i{
+    background-image: url('/app/images/Cart/wxpay@2x.png');
+}
+.zhifu_sub {
+    text-align: center;
+}
+.zhifu_sub button{
+    width: 5.706667rem;
+    height: 1.066667rem;
+    color: #fff;
+    line-height: 1.066667rem;
+    border-radius: 20px;
+    border: none;
+    background: #ff3366;
+    font-size: 0.426667rem;
+    margin-top: 0.906667rem;
+
+}
+
+.zhifu_sub button.disabled {
+    background: #888888;
+    border-color: #888888;
+    pointer-events: none;
+}

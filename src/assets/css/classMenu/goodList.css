@@ -1,0 +1,250 @@
+﻿/* 三级分类 */
+body{
+    background: #f5f5f5;
+}
+.viewport.pdtb0{
+    padding-bottom: 0;
+}
+.active{
+    color: #ff3366;
+}
+.classify_goods{
+    padding-top:1.5rem;
+    background:#fff;
+}
+#goodslist_v .header{
+    position: fixed;
+    top: 0;
+    max-width: 750px;
+    min-width: 320px;
+}
+.classify_search {
+    background: #fff;
+    padding: 0.1867rem 0.32rem;
+}
+.classify_list{
+    position: fixed;
+    top: 1.226667rem;
+    width: 9.2rem;
+}
+.classify_search>div:nth-child(1) i {
+    display: block;
+    width: 0.5867rem;
+    height: 0.5867rem;
+    background: url('/app/images/Com/arrow_left@2x.png') no-repeat;
+    background-size: cover;
+    margin-top: 0.08rem;
+    margin-right: 0.4rem;
+}
+
+.classify_search>div:nth-child(2) i {
+    display: block;
+    width: 0.4933rem;
+    height: 0.5333rem;
+    background: url('/app/images/Nav/nav_search@2x.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.36rem;
+}
+
+.classify_search>div:nth-child(2) {
+    width: 70%;
+    position: relative;
+}
+
+.classify_search>div:nth-child(2) input {
+    width: 100%;
+    height: 0.7733rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding-left: 1.1733rem;
+}
+
+.classify_search>div:nth-child(2) input:-webkit-input-placeholder {
+    color: #333;
+}
+
+.classify_list {
+    padding: 0.4rem;
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.classify_list li {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.classify_list li span {
+    font-size: 0.373333rem;
+}
+
+.classify_list li:nth-child(1) {
+    text-align: left;
+}
+
+.classify_list li:nth-child(3) i {
+    display: inline-block;
+    width: 0.226667rem;
+    height: 0.386667rem;
+    background: url('/app/images/Category/arrow@3x.png') no-repeat;
+    background-size: cover;
+    vertical-align:baseline;
+    margin-left: 0.08rem;
+}
+.classify_list li:nth-child(3) .up{
+    background: url('/app/images/Category/category_arrow_down@2x.png') no-repeat;
+    background-size: cover;
+}
+.classify_list li:nth-child(3) .down{
+    background: url('/app/images/Category/category_arrow_up@3x.png') no-repeat;
+    background-size: cover;
+}
+.classify_list li:nth-child(4) {
+    text-align: right;
+}
+
+.classify_list li:nth-child(4) i {
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url('/app/images/Category/screen@3x.png') no-repeat;
+    background-size: cover;
+    vertical-align: text-top;
+    margin-left: 0.08rem;
+}
+.classify_goods_more {
+    padding-top:2.66667rem;
+}
+.classify_goods li {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ebebeb;
+    padding: 0.32rem;
+}
+    .classify_goods li:nth-child(2n-1) {
+        border-right: 1px solid #ebebeb;
+    }
+.classify_cuxiao {
+    width: 0.8rem;
+    height: 0.3733rem;
+    background: #fa7bae;
+    color: #fff;
+    line-height: 0.3733rem;
+}
+.classify_goods_img{
+    height: 3.6533rem;
+    width: 100%;
+}
+.classify_goods_item img {
+    width: 100%;
+    height: 100%;
+    background: url('/app/images/Com/big_placeHolder@2x.png') no-repeat;
+    background-size: cover;
+}
+.classify_goods_item div:last-child span{
+   color: #333;
+}
+.cl_goods_info {
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #333;
+    font-size: 0.3733rem;
+    margin-bottom: 0.32rem;
+    text-align: left;
+    min-height:1.066667rem;
+}
+.mid{
+    font-size: 0.373333rem !important;
+}
+.go_top{
+    position: fixed;
+    right: 0.32rem;
+    bottom: 2.2667rem;
+    z-index: 100;
+    display: none;
+}
+.go_top i{
+    display: block;
+    width: 0.96rem;
+    height: 0.96rem;
+    background: url('/app/images/Category/topBtn@2x.png') no-repeat;
+    background-size: cover;
+}
+.go_zuji{
+    position: fixed;
+    right: 0.32rem;
+    bottom: 3.7333rem;
+    z-index: 100;
+}
+.go_zuji i{
+    display: block;
+    width: 0.96rem;
+    height: 0.96rem;
+    background: url('/app/images/Category/footBtn@2x.png') no-repeat;
+    background-size: cover;
+}
+.dixian{
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    background: #fff;
+}
+.dixian span{
+    font-size: 0.32rem;
+    color: #666;
+    position: relative;
+}
+.dixian span::after{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    left: 3.3rem;
+}
+.dixian span::before{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    right: 3.3rem;
+}
+
+/* 没有相关产品 */
+.baoqian_logo{
+    width: 2.666667rem;
+    height: 2.666667rem;
+    background: url('/app/images/EmptyView/icon_noScreen@2x.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.88rem;
+
+
+}
+.baoqian {
+    text-align: center;
+    padding-top: 5.333333333333333rem;
+    background: #f4f4f4;
+}
+.baoqian span{
+    color: #acacac;
+    font-size: 14px;
+}
+.goodsshowItem li:nth-child(2n+1){
+    border-right: 1px solid #ededed;
+}

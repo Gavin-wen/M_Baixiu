@@ -1,0 +1,143 @@
+﻿body{
+    background: #f5f5f5;
+}
+.discuss_fixed {
+    background: #f5f5f5;
+    position:fixed;
+    width: 10rem;
+    z-index:1;
+    padding-top:0.133333rem;
+}
+.no_discuss {
+    padding: 0.44rem 0.32rem;
+    background: #fff;
+}
+.no_discuss i{
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.293333rem;
+    background: url("/app/images/GoodsDetails/icon_arrow_red_right@2x.png") no-repeat;
+    background-size: cover;
+}
+.no_discuss div:nth-child(1) span{
+    font-size: 0.373333rem;
+}
+.no_discuss div:nth-child(2){
+    line-height: 0.533333rem;
+}
+.my_disucss_tab{
+    margin-top: 0.133333rem;
+    background: #fff;
+}
+.my_disucss_tab li{
+    padding: 0.44rem 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+.my_disucss_tab li span{
+    font-size: 0.426667rem;
+}
+.my_disucss_tab .active::after{
+    content: "";
+    width: 1.466667rem;
+    height: 0.053333rem;
+    background: #ff3366;
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+}
+.my_disucss_tab .active span{
+    color: #ff3366;
+}
+.discuss_content{
+    text-align: center;
+    padding-top:3.2rem;
+}
+.discuss_content figure{
+    margin-top: 2rem;
+}
+.discuss_content figure img{
+    width: 2.666667rem;
+    height: 2.666667rem;
+}
+.discuss_content figure p{
+    margin-top: 0.8rem;
+}
+
+.my_discuss_list>li{
+    background: #fff;
+    margin-top: 0.133333rem;
+    padding-bottom: 0.533333rem;
+}
+.my_discuss_list .my_discuss_item img{
+    width: 1.973333rem;
+    height: 1.973333rem;
+    border: 1px solid #e2e2e2;
+    margin-right: 0.24rem;
+}
+.my_discuss_list .my_discuss_item {
+    margin:  0 0.32rem;
+    padding: 0.44rem 0 0.413333rem;
+    
+    border-bottom: 1px solid #ebebeb;
+}
+.my_discuss_item div:nth-child(2) span{
+    display: block;
+    text-align: left;
+    color: #333;
+}
+.my_discuss_item div:nth-child(2) span:nth-child(1){
+    margin-bottom: 0.426667rem;
+}
+.discuss_word {
+    text-align: left;
+    padding: 0.413333rem 0;
+}
+.discuss_word span{
+    color: #333;
+    font-size: 0.373333rem;
+}
+.discuss_cont{
+    text-align: left;
+    padding: 0 0.32rem;
+}
+
+    .discuss_cont li {
+        width: 1.333333rem;
+        height: 1.333333rem;
+        display: inline-block;
+        margin-right: 0.8rem;
+
+    }
+.discuss_cont li img{
+    width: 100%;
+    height: 100%;
+}
+.big_img_discuess{
+    height:17.78667rem;
+    width:10rem;
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: 123;
+    overflow:hidden;
+    display:none;
+}
+    .big_img_discuess .swiper-container {
+        height:100%;
+    }
+
+    .big_img_discuess li {
+        max-height: 100%;
+        max-width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .big_img_discuess li img {
+        max-width: 10rem;
+    }

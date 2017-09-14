@@ -1,0 +1,201 @@
+﻿
+body {
+    background-color: #f4f4f4;
+}
+
+.my_quan_choice {
+    background: #fff;
+}
+
+.my_quan_choice>ul>li {
+    padding: 0.4rem 0;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-size: .4rem;
+}
+
+.my_quan_choice>span {
+    color: #666;
+}
+
+.quan_active {
+    position: relative;
+}
+
+.quan_active span {
+    color: #ff3366;
+}
+
+.c_title,.c_desc,.c_time {
+    color: #fff;
+}
+
+.c_price em{
+    font-size: .6rem;
+    font-family: SimHei, "Helvetica Neue", Arial, "Droid Sans", sans-serif;
+}
+
+.c_title {
+    font-size: .42rem;
+}
+
+.c_desc {
+    font-size: .3rem;
+}
+
+.c_time {
+    font-size: .35rem;
+    font-family: SimHei, "Helvetica Neue", Arial, "Droid Sans", sans-serif;
+}
+
+.c_title,.c_desc{
+    width: 80%;
+    margin: 0 auto;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    white-space: nowrap;
+}
+
+.quan_active::after {
+    content: "";
+    width: 1.3067rem;
+    height: 0.053333rem;
+    background: #ff3366;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -0.6533rem;
+}
+
+.quan_list {
+    padding: 0.32rem 0.64rem 0;
+}
+
+.quan_item {
+    height: 2.6667rem;
+    margin-top: 0.32rem;
+}
+
+.quan_item span {
+    color: #fff;
+}
+
+.no_use {
+    background: url('/app/images/MyNext/bg_tickets@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.quan_item_l {
+    min-width: 34%;
+    text-align: center;
+    padding: 0.75rem 0 0;
+}
+
+.quan_item_r {
+    width: 65%;
+    text-align: center;
+    padding-top: 0.5333rem;
+}
+
+.guoqi_use {
+    background: url('/app/images/MyNext/bg_tickets_gray@2x.png') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.guoqi_use i {
+    display: block;
+    position: absolute;
+    width: 1.3867rem;
+    height: 1.3867rem;
+    background: url('/app/images/MyNext/pic_ticket_invalid@2x.png') no-repeat;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    z-index: 2;
+}
+
+.shiyong_use {
+    background: url('/app/images/MyNext/bg_tickets@2x.png') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.used_mc {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225,225,225,.3);
+    z-index: 1;
+}
+
+.shiyong_use .used_mc {
+    display: block;
+}
+
+.shiyong_use i {
+    display: block;
+    position: absolute;
+    width: 1.3867rem;
+    height: 1.3867rem;
+    background: url('/app/images/MyNext/pic_ticket_used@2x.png') no-repeat;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    z-index: 2;
+}
+
+.dixian{
+    margin-top: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.dixian span{
+    font-size: 0.32rem;
+    color: #666;
+    position: relative;
+}
+.dixian span::after{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    left: 3.3rem;
+}
+.dixian span::before{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    right: 3.3rem;
+}
+
+.empty_box {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: .37rem;
+}
+.empty_box img {
+    width: 30%;
+}
+.empty_box p {
+    margin: .5rem 0;
+    color: #cacaca;
+}
+.empty_box a {
+    display: inline-block;
+    color: #fff;
+    font-size: .37rem;
+    background-color: #ff3366;
+    padding: .2rem .4rem;
+    border-radius: 20px;
+}

@@ -1,0 +1,201 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+
+.invoice_box {
+    font-size: .38rem;
+    color: #353535;
+}
+
+.i_price,.i_title,.i_form,.i_content,.i_state,.i_invoice_wrap,.btn_wrap {
+    background-color: #fff;
+    padding:0 .3rem;
+    overflow: hidden;
+}
+.btn_wrap {
+    text-align: right;
+    margin-top: 5px;
+    padding: .1rem;
+}
+.i_invoice_wrap {
+    padding: .3rem;
+    margin-top: 5px;
+}
+.i_invoice_wrap.failed {
+    color: #999;
+}
+.i_invoice_wrap.failed .order_info {
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+}
+.i_invoice_wrap.failed .order_info:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: .1rem;
+    background: url('/app/images/my/order_invoice_invalid.png') no-repeat;
+    width: 2.226rem;
+    height: 1.69rem;
+    background-size: 100% auto;
+}
+
+
+.i_state {
+    line-height: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: 5px;
+}
+.i_state em {
+    color: #ff3e6d;
+}
+.order_info,.invoice_info {
+    overflow: hidden;
+}
+.order_info {
+    padding-bottom: .2rem;
+    margin-bottom: .2rem;
+}
+.i_invoice_wrap .p_line {
+    padding: .2rem 0;
+}
+
+.i_title,.i_form,.i_content {
+    margin-top: 5px;
+}
+
+.i_title h3, .i_form h3, .i_content h3 {
+    font-weight: normal;
+    font-size: .426rem;
+}
+
+.i_price {
+    overflow: hidden;
+    *zoom: 1;
+    padding-bottom: .3rem;
+}
+
+.i_price .i_item{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: .3rem;
+}
+
+.i_tap_box {
+    overflow: hidden;
+    padding-top: .3rem;
+}
+
+.i_title {
+    padding-bottom: .5rem;
+}
+.i_title h3 {
+    margin: .4rem 0 .1rem 0;
+}
+.i_title em {
+    font-size: .3rem;
+    color: #999;
+}
+.check_wrap {
+    margin-top: .3rem;
+}
+.i_form .check_wrap {
+    padding-bottom: .5rem;
+}
+.check_wrap.bdb {
+    border-bottom: 1px solid #ededed;
+}
+
+.i_form h3 {
+    margin: .4rem 0;
+}
+
+.i_content h3 {
+    padding: .4rem 0;
+}
+
+.sub_btn {
+    display: block;
+    width: 4.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .48rem;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #ff3e6d;
+    text-align: center;
+    margin: .9rem auto 0;
+}
+
+
+.frm_radio_label {
+    margin-right: 1rem;
+}
+
+.frm_radio_label input {
+    display: none;
+}
+
+.icon_radio {
+    display: inline-block;
+    background-image: url('/app/images/com/icon_unselected@2x.png');
+    background-repeat: no-repeat;
+    width: .6rem;
+    height: .6rem;
+    background-size: 100% auto;
+    vertical-align: -29%;
+    margin-right: .1rem;
+}
+
+.frm_radio_label .frm_radio:checked + .icon_radio{
+    background-image: url('/app/images/com/icon_cuccess.png');
+}
+
+.form_input {
+    margin: 0 auto .3rem auto;
+    padding: 0;
+    width: 85%;
+}
+
+.form_input.force {
+    position: relative;
+}
+
+.form_input.force:after {
+    content: '*';
+    display: block;
+    position: absolute;
+    top: 18%;
+    right: -4%;
+    color: #ff3e6d;
+    font-size: .4rem;
+}
+
+.form_input .form_text input {
+    padding-left: 0;
+    text-align: center;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+.form_input .form_text input:focus {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.btn_wrap .btn{
+    display: inline-block;
+    font-size: 0.3733rem;
+    padding: .15rem .3rem;
+    text-align: center;
+    color: #666;
+    border: 1px solid  #666;
+    background: #fff;
+    border-radius: 20px;
+    margin:0.1rem;
+}
+.btn_wrap .btn.btn_red{
+    color: #ff3366;
+    border: 1px solid  #ff3366;
+    background: #fff;
+}

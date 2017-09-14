@@ -1,0 +1,61 @@
+﻿/* 热门关键词 */
+.hot_search,
+.recently_search{
+    padding: 0 0.32rem 0.933333rem;
+}
+.brand_title h3{
+    padding: 0.533333rem 0;
+    color: #666666;
+    font-size: 0.373333rem;
+    font-weight: normal;
+}
+.hot_btn_list li{
+    display: inline-block;
+    padding: 0 0.506667rem;
+    margin-bottom: 0.32rem;
+    border: 1px solid #666666;
+    color: #666666;
+    border-radius: 25px;
+    line-height: 0.693333rem;
+    margin-right: 0.506667rem;
+}
+
+/* 搜索结果页 */
+.viewport{
+    padding-top: 0 !important;
+}
+.search_info{
+    position: fixed;
+    background: #fff;
+    width:10rem;
+}
+.classify_change{
+    position: fixed;
+    top: 1.45rem;
+    width: 9.4rem;
+    padding: 0.4rem;
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+.classify_change li{
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+.classify_change li:nth-child(3) i {
+    display: inline-block;
+    width: 0.226667rem;
+    height: 0.386667rem;
+    background: url(/app/images/Category/arrow@3x.png) no-repeat;
+    background-size: cover;
+    vertical-align: baseline;
+    margin-left: 0.08rem;
+}
+.clearsh_btn{
+    width:.586667rem;
+    height: .586667rem;
+    background: url('/app/images/My/my_optometry_delete@2x.png') no-repeat;
+    background-size: cover;
+    transform: translateY(.466667rem);
+}

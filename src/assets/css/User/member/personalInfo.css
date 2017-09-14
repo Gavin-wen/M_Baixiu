@@ -1,0 +1,159 @@
+﻿body {
+    background-color: #ededed;
+}
+
+.setting {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portrait div {
+    width: 1.946667rem;
+    height: 1.946667rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portrait div img {
+    width: 1.813333rem;
+    height: 1.813333rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background: #333;
+    transform: translateY(4%)
+}
+
+.setting_info {
+    background: #ff507c;
+    padding-bottom: 0.586667rem;
+}
+
+.setting h3 {
+    color: #fff;
+    line-height: 1.066667rem;
+}
+
+.progress .line, .progress .line .slider {
+    height: 0.133333rem;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.progress .line {
+    display: inline-block;
+    width: 50%;
+    margin: 0 .2rem;
+    background-color: transparent;
+    vertical-align: 21%;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.progress .line .slider {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+
+.go_vip span {
+    display: inline-block;
+    line-height: 0.64rem;
+    color: #fff;
+    font-size: 0.35rem;
+}
+
+.go_vip i {
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url('/app/images/Nav/icon_back@2x.png') no-repeat;
+    background-size: cover;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    /*IE*/
+    filter: FlipH;
+}
+
+.setting_list_item {
+    background: #fff;
+    margin-top: 0.133333rem;
+}
+
+.setting_list_item ul li {
+    padding: 0.48rem 0;
+    margin: 0 0.32rem;
+    border-bottom: 1px solid #ededed;
+}
+
+.setting_list_item ul li a {
+    font-size: .37rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.setting_list_item ul li .fr {
+    margin-right: .8rem;
+}
+
+.setting_list_item ul li:last-child {
+    border-bottom: none;
+}
+
+.setting_list_item ul li i {
+    display: inline-block;
+    width: 0.64rem;
+    height: 0.64rem;
+    background: url('/app/images/My/my_more@2x.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -0.05rem;
+    right: 0;
+}
+
+.logout_btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #ff3e6d;
+    margin-top: 5px;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    background-color: #fff;
+    font-size: .37rem;
+}
+
+.btn_sex {
+    border-top: solid 1px #dcdcdc;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn_sex a {
+    color: #000000;
+}
+
+.btn_sex:active {
+    background-color: #e8e6e6;
+}
+
+
+.dwc {
+    width: 100%;
+}
+.dw-i {
+    text-align: center;
+}

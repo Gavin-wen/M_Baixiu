@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+.viewport {
+    background-color: #fff;
+}
+.logo,.qr_code_box {
+    text-align: center;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+.logo img,.qr_code_box img {
+    padding-top: .6rem;
+    display: block;
+    width: 2rem;
+    margin: 0 auto;
+    padding-bottom: .15rem;
+}
+.logo span,.qr_code_box span {
+    font-size: .3733rem;
+}
+
+.qr_code_box img{
+    width: 4.5rem;
+}
+
+.customer_phone h3{
+    color: #333;
+    text-align: center;
+    font-size: .42rem;
+    padding: .33rem 0;
+    border-bottom: 1px solid #d7d7d7;
+    font-weight: normal;
+}
+.customer_phone a {
+    color: #333;
+}
+
+.copyright {
+    position: fixed;
+    bottom: .33rem;
+    text-align: center;
+    width: 10rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: .3733rem;
+}

@@ -1,0 +1,169 @@
+﻿
+body {
+    background-color: #f5f5f5;
+}
+.my_site_list>ul>li {
+    background: #fff;
+    margin-top: 0.133333rem;
+    border-bottom: 1px solid #ededed;
+}
+
+.my_site_list>ul>li .my_site_item {
+    padding: 0.453333rem 0.346667rem 0.533333rem;
+    font-size: .37rem;
+}
+
+.my_site_item span {
+    color: #333;
+    display: inline-block;
+}
+
+.adrs_box {
+    margin-top: 0.453333rem;
+    font-size: .35rem;
+}
+
+.default {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.426667rem;
+    color: #fff;
+    background: #ff3366;
+    line-height: 0.426667rem;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 0.106667rem;
+    font-size: .33rem;
+}
+.chooseConsignee{
+    position: absolute; 
+    height: 0.5rem;
+    width: 0.5rem;  
+    right: 0.2rem;
+    bottom: 50%; 
+    margin-bottom: -0.25rem; 
+    background:url('/app/images/Com/icon_unselected@2x.png') no-repeat ;
+    background-size:100% 100%;
+}
+.chooseConsignee_select{
+    background:url('/app/images/Com/icon_selected@2x.png') no-repeat !important ;
+    background-size:100% 100% !important;
+}
+.my_site_list {
+    padding-bottom: 2rem;
+}
+
+.my_site_item>div {
+    max-width: 60%;
+}
+
+.my_site_item_set {
+    display: none;
+    margin: 0 0.346667rem;
+    padding: 0.266667rem 0;
+    border-top: 1px solid #ededed;
+    color: #333;
+}
+
+.my_site_item_set i,
+.my_site_item_set span {
+    display: inline-block;
+}
+
+.my_site_item_set .set_default_btn {
+    font-size: .37rem;
+}
+
+.my_site_item_set .set_default_btn i {
+    width: 0.533333rem;
+    height: 0.533333rem;
+    background-image: url('/app/images/Com/icon_selected@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 0.1rem;
+}
+
+.my_site_item_set .set_default_btn.unselect i {
+    background-image: url('/app/images/Com/icon_unselected@2x.png');
+}
+
+.my_site_item_set .edit_btn,.my_site_item_set .del_btn {
+    display: inline-block;
+    font-size: .33rem;
+}
+
+.my_site_item_set .edit_btn {
+    margin-right: 0.266667rem;
+}
+
+.my_site_item_set .edit_btn i,.my_site_item_set .del_btn i{
+    display: inline-block;
+    width: 0.586667rem;
+    height: 0.586667rem;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    margin-right: .1rem;
+}
+
+
+.my_site_item_set .edit_btn i {
+    background-image: url('/app/images/my/my_optometry_eidt@2x.png');
+}
+
+.my_site_item_set .del_btn i {
+    background-image: url('/app/images/my/my_optometry_delete@2x.png');
+}
+
+.my_site_set .submit_ruturn {
+    border-top: 1px solid #ededed;
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    margin: 0 auto;
+    padding: .2rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+.my_site_set .submit_ruturn .btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #ff3366;
+    border-radius: 20px;
+    font-size: .37rem;
+    padding: .2rem .4rem;
+    min-width: 40%;
+}
+
+.op_btn {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: auto;
+    right: 0.2rem;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    -webkit-transform: translate3d(0, -50%, 0);
+    -moz-transform: translate3d(0, -50%, 0);
+    min-width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #333;
+    font-size: .37rem;
+}
+
+.empty_box {
+    text-align: center;
+    padding-top: 2rem!important;
+    background-color: transparent !important;
+    font-size: .37rem;
+}
+.empty_box img {
+    width: 30%;
+}
+.empty_box p {
+    margin: .3rem 0;
+    color: #cacaca;
+}

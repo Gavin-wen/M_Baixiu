@@ -1,0 +1,373 @@
+﻿/*头部样式*/
+
+.header {
+    background-position: 0 120px;
+}
+
+.head_title {
+    color: #111111 !important;
+}
+
+.head_icon_left {
+    width: 14px;
+    height: 26px;
+    display: inline-block;
+    background: url(../images/common/arrow_left@2x.png) no-repeat center;
+}
+
+.head_icon_right {
+    width: 35px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/common/icon_more@2x.png) no-repeat;
+    background-position: 4px 10px;
+}
+
+.goods_discuss_content{
+    padding-bottom:1.6rem;
+    padding-top:1.4rem;
+}
+/*商品评价页样式*/
+.wrap_content {
+    margin: 0 .32rem;
+}
+
+.evaluate_type {
+    padding: .293333rem 0;
+    position:fixed;
+    width:10rem;
+    top:1.5rem;
+    background:#fff;
+    z-index:10;
+}
+.evaluate_type li {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.evaluate_type li a {
+    display: inline-block;
+    height: .733333rem;
+    padding: 0 .24rem;
+    border: 1px solid #656565;
+    border-radius: 18px;
+    line-height: .733333rem;
+    text-align: center;
+    overflow: hidden;
+    font-size: .266667rem;
+}
+
+.evaluate_type li a>span {
+    margin-left: 2px;
+}
+
+.evaluate_type li:first-child a {
+    padding: 0;
+    width: 85%;
+}
+
+.evaluate_type_active a {
+    background-color: #ff3366;
+    border-color: #ff3366 !important;
+    color: #fff !important;
+}
+
+.evaluate_content>li {
+    padding: .32rem 0.32rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.user_info {
+    height: .933333rem;
+    line-height: .0.9rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.user_head {
+    display: inline-block;
+    height: .92rem;
+    width: .92rem;
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    border-radius: .466667rem;
+    vertical-align: middle;
+}
+
+.user_head img {
+    width: 100%;
+    height: 100%;
+}
+
+.user_name {
+    margin-left: .32rem;
+    color: #353535;
+}
+
+.user_vip {
+    display: inline-block;
+    width: .453333rem;
+    height: .346667rem;
+    vertical-align: middle;
+    margin-left: .32rem;
+}
+
+
+.V0 {
+    background: url('../images/Vip/icon_gray_v0@2x.png') no-repeat center;
+    background-size: cover;
+}
+.V1 {
+    background: url('../images/Vip/icon_gray_v1@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+.V2 {
+    background: url('../images/Vip/icon_gray_v2@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+.V3 {
+    background: url('../images/Vip/icon_gray_v3@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+.V4 {
+    background: url('../images/Vip/icon_gray_v4@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+.V5 {
+    background: url('../images/Vip/icon_gray_v5@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+.V6 {
+    background: url('../images/Vip/icon_gray_v6@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+.white_V0{
+    background: url("../images/Vip/icon_v0@2x.png") no-repeat center;
+    background-size: cover;
+}
+.white_V1{
+    background: url("../images/Vip/icon_v1@2x.png") no-repeat center;
+    background-size: cover;
+}
+.white_V2{
+    background: url("../images/Vip/icon_v2@2x.png") no-repeat center;
+    background-size: cover;
+}
+.white_V3{
+    background: url("../images/Vip/icon_v3@2x.png") no-repeat center;
+    background-size: cover;
+}
+.white_V4{
+    background: url("../images/Vip/icon_v4@2x.png") no-repeat center;
+    background-size: cover;
+}
+.white_V5{
+    background: url("../images/Vip/icon_v5@2x.png") no-repeat center;
+    background-size: cover;
+}
+.white_V6{
+    background: url("../images/Vip/icon_v6@2x.png") no-repeat center;
+    background-size: cover;
+}
+.user_level {
+    width: 3.053333rem;
+    height: 0.386667rem;
+    position: absolute;
+    top: .32rem;
+    right: 0;
+}
+
+.user_level_0 {
+    background: url('../images/Stars/icon_comment_star0@2x.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.user_level_1 {
+    background: url('../images/Stars/icon_comment_star1@2x.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.user_level_2 {
+    background: url('../images/Stars/icon_comment_star2@2x.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.user_level_3 {
+    background: url('../images/Stars/icon_comment_star3@2x.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.user_level_4 {
+    background: url('../images/Stars/icon_comment_star4@2x.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.user_level_5 {
+    background: url('../images/Stars/icon_comment_star5@2x.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.user_info+p {
+    margin-top: .213333rem;
+    font-size: .32rem;
+    color: #353535;
+}
+
+.user_comment_image {
+    overflow: hidden;
+    margin-top: .266667rem;
+    max-height: 3.333333rem;
+}
+
+.user_comment_image ul li {
+    float: left;
+    width:1.28rem;
+    height:1.28rem;
+    border:1px solid #ededed;
+    border-radius:2px;
+    margin-right:0.4rem;
+}
+
+.user_comment_image img {
+    width:100%;
+    height:100%;
+}
+.answer_content{
+    margin:0 0.8rem 0 1.32rem;
+}
+.answer_arrow{
+    height: 0.4rem;
+    padding-left: 0.4rem;
+    line-height: 0.5rem;
+    padding-top: 0.09rem;
+    box-sizing: border-box;
+}
+.answer_arrow span{
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-left: 0.8rem solid transparent;
+    border-right: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid #ffeff3;
+    -webkit-border-left: 0.8rem solid transparent;
+    -webkit-border-right: 0.8rem solid transparent;
+    -webkit-border-bottom: 0.8rem solid #ffeff3;
+    -moz-border-left: 0.8rem solid transparent;
+    -moz-border-right: 0.8rem solid transparent;
+    -moz-border-bottom: 0.8rem solid #ffeff3;
+}
+.evaluate_reply {
+    background-color: #ffeff3;
+    border-radius: 8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    font-size:0.35rem;
+    padding-top:0.22rem;
+    padding-left:0.2rem;
+}
+
+.evaluate_reply>p:first-child {
+    color: #444;
+}
+
+.evaluate_reply>p:last-child {
+    text-align: right;
+    color: #999;
+        font-size: .346667rem;
+    padding: .266667rem .293333rem .266667rem 0;
+}
+
+.evaluate_time {
+    text-align: right;
+    color: #8a8a8a;
+    font-size: .266667rem;
+    margin-top: .346667rem;
+}
+/* 点击有图评论出现对应的大图 */
+#img_discuess li img{
+    width: 100%;
+}
+.swiper-container{
+    z-index: 111;
+}
+.big_img_discuess{
+    width: 10rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 23;
+}
+.modal_b{
+    padding: 0.4rem 0 0.56rem;
+    position:fixed;
+    width: 100%;
+    background:rgba(116,112,92,0.5);
+    z-index: 22;
+    bottom: 0;
+}
+.modal_b span,
+.modal_b p,
+.modal_b label{
+    color: #fff;
+}
+.modal_b p{
+    padding-left: 0.32rem;
+}
+.index{
+    margin-right: 0.32rem;
+}
+#goods_discuss{
+    display:none;
+}
+
+.submit_qus{
+    padding:0.293333rem 0.32rem;
+    position:fixed;
+    bottom:0;
+    width:9.36rem;
+    background:#fff;
+    z-index:11;
+}
+.qus_input {
+    width: 7.70667rem;
+    background: #f4f4f4;
+    height: 0.73333rem;
+    position:relative;
+}
+.qus_input:before{
+    content:"";
+    position:absolute;
+    width: 0.346667rem;
+    height: 0.346667rem;
+    background: url("/app/images/Cart/cart_coupon_pen@3x.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.186667rem;
+    margin-left:2px;
+}
+    .qus_input input {
+        padding-left:0.5rem;
+        width: 96%;
+        height: 100%;
+        background: #f4f4f4;
+        border:none;
+    }
+.submit_qus button{
+    background:#fff;
+    border:none;
+    text-align:center;
+    line-height: 0.72rem;
+    text-align: center;
+    color: #333;
+}
+figure {
+    display: flex;
+    justify-content: center;
+}

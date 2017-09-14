@@ -1,0 +1,102 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+
+.my_footprint_list li {
+    background: #fff;
+    margin-top: .16rem;
+}
+
+.my_footprint_list>li {
+    margin-top: 5px;
+}
+table {
+    width: 95%;
+}
+.footprint_item {
+    box-sizing: border-box;
+    font-size: .38rem;
+}
+
+.info_box span,.footprint_item_t {
+    color: #333;
+}
+.footprint_item_t {
+    padding: .35rem 0 .32rem .32rem;
+    border-bottom: 1px solid #ededed;
+    font-size: .4rem;
+}
+
+.footprint_item td {
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.footprint_item .img_box {
+    text-align: center;
+}
+.footprint_item img {
+    display: inline-block;
+    width: 1.973333rem;
+    height: 1.973333rem;
+    border: 1px solid #ededed;
+    margin:.28rem .32rem;
+    overflow: hidden;
+}
+
+.footprint_item .info_box {
+    padding-top: 0.28rem;
+    margin-right: .32rem;
+    vertical-align: top;
+    width: 75%;
+    border-bottom: 1px solid #ededed;
+}
+.footprint_item:last-child .info_box {
+    border-bottom: none;
+}
+.footprint_item .info_box .price_box {
+    color: #ff3366;
+}
+
+.dixian{
+    margin-top: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.dixian span{
+    font-size: 0.32rem;
+    color: #666;
+    position: relative;
+}
+.dixian span::after{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    left: 3.3rem;
+}
+.dixian span::before{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    right: 3.3rem;
+}
+
+.empty_box {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: .37rem;
+}
+.empty_box img {
+    width: 30%;
+}
+.empty_box p {
+    margin: .5rem 0;
+    color: #cacaca;
+}

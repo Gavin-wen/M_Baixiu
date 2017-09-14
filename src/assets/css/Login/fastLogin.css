@@ -1,0 +1,588 @@
+.viewport {
+    box-sizing:border-box;
+    height: 100%;
+    overflow:scroll;
+}
+.logo {
+    width: 1.973333rem;
+    height: 1.973333rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    background-size: cover;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+}
+.login .fast-login,
+.password,
+.num-login,
+.set-password,
+.bind-num,
+.bind-mail,
+.change-pasw {
+    padding: 0 1.146667rem;
+    margin: 0 auto;
+}
+
+.password {
+    margin-top: 1.786667rem;
+}
+
+.phoneNum {
+   padding: 0.906667rem 0 0.533333rem;
+    border-bottom: 1px solid #999;
+}
+
+.phoneNum input {
+    border: none;
+    width: 100%;
+    font-size:0.362rem;
+}
+
+.entry-code {
+    padding: 0.906667rem 0 0.533333rem;
+    display: inline-block;
+    border-bottom: 1px solid #999;
+}
+
+.entry-code input {
+    border: none;
+    width: 100%;
+    font-size:0.352rem;
+}
+
+.get-code {
+    margin-left: 0.4rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.get-code input,.get-code a {
+    display: block;
+    width: 2.373333rem;
+    height: 0.773333rem;
+    line-height: 0.773333rem;
+    text-align: center;
+    border: 1px solid #2275ff;
+    background: #fff;
+    color: #2275ff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    font-size:0.365rem;
+}
+
+.submit {
+    width: 7.733333rem;
+    padding: 0.213333rem 0;
+    margin: 0 auto;
+    text-align: center;
+    background: #ff4775;
+    border: none;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -ms-border-radius: 25px;
+    color: #fff;
+    font-size: 0.403rem;
+}
+
+.choice-login {
+    margin-top: 0.64rem;
+    font-size:0.349rem;
+}
+
+.fast-login h3 {
+    margin-top: 0.533333rem;
+}
+
+.blue {
+    color: #2275ff;
+}
+
+
+/*账号登陆*/
+
+.num-login .phoneNum {
+    position: relative;
+}
+
+.num-login .phoneNum input {
+    padding-left: 1.12rem;
+    box-sizing: border-box;
+}
+
+.num-login .entry-code {
+    position: relative;
+    width: 100%;
+}
+
+
+.num-login .entry-code input {
+    padding-left: 1.12rem;
+    box-sizing: border-box;
+}
+.pwd-code {
+    position: relative;
+}
+.pwd-code i {
+    position: absolute;
+    right: 0;
+    display: block;
+    height: 96%;
+    width: 1.3rem;
+    top: 0;
+    z-index: 999;
+}
+.login_footer {
+    text-align: center;
+    width: 10rem;
+    margin-top:4rem;
+}
+
+.login_footer h3 {
+    font-size: 0.373333rem;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+}
+
+.login_footer h3:before,
+.login_footer h3:after {
+    border-top: solid 1px #ccc;
+    display: block;
+    width: 10%;
+    content: "";
+    position: absolute;
+    top: 10px;
+}
+
+.login_footer h3:before {
+    right: 2.5rem;
+}
+
+.login_footer h3::after {
+    left: 2.5rem;
+}
+.third_login a {
+    width: 0.906667rem;
+    height: 0.906667rem;
+    display: inline-block;
+    margin: 0 0.68rem;
+    font-size: 0;
+    font-size: 0;
+}
+
+.third_login a:nth-child(1) {
+    background: url('/app/images/Login/login_qq@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.third_login a:nth-child(2) {
+    background: url('/app/images/Login/login_sina@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.third_login a:nth-child(3) {
+    background: url('/app/images/Login/login_taobao@2x.png') no-repeat;
+    background-size: cover;
+}
+
+
+/*设置账号*/
+
+.set-password {
+    margin-top: 2.933333rem;
+}
+
+.set-password .entry-code {
+    position: relative;
+    width: 100%;
+}
+
+.set-password .phoneNum,
+.set-password .entry-code {
+    position: relative;
+}
+
+
+/*绑定手机*/
+
+.bind-num {
+    margin-top: 0.96rem;
+}
+
+.bind-num .phoneNum,
+.bind-num .entry-code {
+    position: relative;
+}
+
+
+/*绑定邮箱*/
+
+.bind-mail {
+    margin-top: 2.933333rem;
+}
+
+.bind-mail .phoneNum,
+.bind-mail .entry-code {
+    position: relative;
+}
+
+
+/*修改密码*/
+
+.change-pasw {
+    margin-top: 2.933333rem;
+}
+
+.change-pasw .phoneNum,
+.change-pasw .entry-code {
+    position: relative;
+}
+
+.change-pasw .entry-code {
+    width: 100%;
+}
+
+.change-pasw .phoneNum input {
+    padding-left: 0.733333rem;
+}
+
+.change-pasw .entry-code input {
+    padding-left: 0.733333rem;
+}
+
+.change-pasw .submit {
+    margin-top: 1.76rem;
+}
+
+.logo {
+    background: url('/app/images/login/logo@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.num-login .phoneNum::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.453333rem;
+    background: url(/app/images/login/login_user@2x.png) no-repeat;
+    background-size: cover;
+    top: 1rem;
+    content: " ";
+    left: 0.32rem;
+}
+
+.num-login .entry-code::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.453333rem;
+    background: url(/app/images/login/login_password@2x.png) no-repeat;
+    background-size: cover;
+    top: 1rem;
+    content: " ";
+    left: 0.32rem;
+}
+
+        .verificationLogin .loginCode img {
+            width: 2.2rem;
+            border: none;
+            border: 1px #fff solid;
+            height: 1rem;
+            border-radius: 5px;
+            padding: 0;
+            text-align: center;
+        }
+      
+         .codeDiv { position:relative;}
+        .imgCode {
+            position: absolute;
+            right: 0;
+            top: 0.55rem;
+            width: 1.8rem;
+            height: 1rem;
+        }
+        .num-login .entry-codeDiv::after {
+            background:none;
+        }
+        .verificationLogin .loginCode img {
+            width: 2.2rem;
+            border: none;
+            border: 1px #fff solid;
+            height: 1rem;
+            border-radius: 5px;
+            padding: 0;
+            text-align: center;
+        }
+        .showElement {
+            display: block;
+        }
+        .hideElement {
+            display: none;
+        }
+         .codeDiv { position:relative;}
+        .imgCode {
+            position: absolute;
+            right: 0;
+            top: 0.55rem;
+            width: 1.8rem;
+            height: 1rem;
+        }
+        .num-login .entry-codeDiv::after {
+            background:none;
+        }
+.num-login .entry-code::after {
+    display: inline-block;
+    position: absolute;
+    width: 0.693333rem;
+    height: 0.346667rem;
+    background: url(/app/images/login/login_password_off@2x.png) no-repeat;
+    background-size: cover;
+    top: 1rem;
+    content: " ";
+    right: 0.32rem;
+}
+
+.set-password .phoneNum::after {
+    display: inline-block;
+    position: absolute;
+    width: 0.693333rem;
+    height: 0.346667rem;
+    background: url(/app/images/login/login_password_off@2x.png) no-repeat;
+    background-size: cover;
+    top: 1rem;
+    content: " ";
+    right: 0.32rem;
+}
+
+.set-password .entry-code::after {
+    display: inline-block;
+    position: absolute;
+    width: 0.693333rem;
+    height: 0.426667rem;
+    background: url(/app/images/login/login_password_on@2x.png) no-repeat;
+    background-size: cover;
+    top: 1rem;
+    content: " ";
+    right: 0.32rem;
+}
+
+/*.bind-num .phoneNum::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.4rem;
+    height: 0.586667rem;
+    background: url(/app/images/Setting/set_phone@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.426667rem;
+    content: " ";
+    left: 0px;
+}*/
+
+.bind-num .entry-code::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url(/app/images/Setting/set_vercode@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.426667rem;
+    content: " ";
+    left: 0px;
+}
+
+.bind-mail .phoneNum::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.32rem;
+    background: url(/app/images/Setting/set_mail@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.533333rem;
+    content: " ";
+    left: 0px;
+}
+
+.bind-mail .entry-code::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url(/app/images/Setting/set_vercode@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.426667rem;
+    content: " ";
+    left: 0px;
+}
+
+.change-pasw .phoneNum::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.586667rem;
+    background: url(/app/images/Setting/set_old_pws@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.346667rem;
+    content: " ";
+    left: 0px;
+}
+
+.change-pasw .entry-code::before {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.586667rem;
+    background: url(/app/images/Setting/set_old_pws@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.346667rem;
+    content: " ";
+    left: 0px;
+}
+
+.change-pasw .phoneNum::after {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.32rem;
+    background: url(/app/images/Login/login_password_on@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.533333rem;
+    content: " ";
+    right: 0px;
+}
+
+.change-pasw .entry-code::after {
+    display: inline-block;
+    position: absolute;
+    width: 0.48rem;
+    height: 0.32rem;
+    background: url(/app/images/Login/login_password_on@2x.png) no-repeat;
+    background-size: cover;
+    top: 0.533333rem;
+    content: " ";
+    right: 0px;
+}
+
+.verificationLogin {
+    width: 100%;
+    height: 3.0rem;
+    padding: 0;
+    background: #fff;
+}
+
+.verificationLogin p {
+    text-align: center;
+    color: #333;
+    font-size: 110%;
+    padding: 0.2rem 0 0.5rem;
+}
+
+.verificationLogin .verificationDiv {
+    width: 100%;
+    height: 1.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.verificationLogin .loginCode {
+    width: 2.2rem;
+    float: left;
+    padding: 0;
+    margin: 0 0.1rem;
+    border: none;
+}
+
+.verificationLogin .loginCodeImg {
+    float: right;
+}
+
+.verificationLogin .loginCode input {
+    width: 2.8rem;
+    border: 1px #666 solid;
+    height: 1rem;
+    border-radius: 5px;
+    padding: 0 0.2rem;
+    font-size: 100%;
+    text-align: center;
+}
+
+.verificationLogin .loginCode img {
+    width: 2.2rem;
+    border: none;
+    border: 1px #fff solid;
+    height: 1rem;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.showElement {
+    display: block;
+}
+
+.hideElement {
+    display: none;
+}
+
+.codeDiv {
+    position: relative;
+}
+
+.imgCode {
+    position: absolute;
+    right: 0;
+    top: 0.55rem;
+    width: 1.8rem;
+    height: 1rem;
+}
+
+.num-login .entry-codeDiv::after {
+    background: none;
+}
+/* 注册页面 样式调整*/
+.zhuce{
+    margin-top: 1.706667rem;
+}
+ .zhuce .phoneNum::before{
+    display: none ;
+}
+.zhuce .fast-login h3{
+    display: none;
+}
+.mt-10 p {
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.protocol{
+    margin-top: 0.64rem;
+}
+.protocol i{
+    position: relative;
+    display: inline-block;
+    width: 0.533333rem;
+    height: 0.533333rem;
+    margin-right: 0.133333rem;
+    top: 0.106667rem;
+}
+.protocol .agreement{
+    background: url("/app/images/Com/icon_selected@2x.png") no-repeat;
+    background-size: cover;
+}
+.protocol .disagreement{
+    background: url("/app/images/Com/icon_unselected@2x.png") no-repeat;
+    background-size: cover;
+}
+.num-login .pwd-code-ico::after {
+    display: inline-block;
+    position: absolute;
+    width: 0.693333rem;
+    height: 0.45rem;
+    background: url(/app/images/login/login_password_on@2x.png) no-repeat;
+    background-size: cover;
+    top: 1rem;
+    content: " ";
+    right: 0.32rem;
+}

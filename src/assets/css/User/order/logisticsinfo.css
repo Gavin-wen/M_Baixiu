@@ -1,0 +1,87 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+.wuliu_info {
+    background: #fff;
+    padding: 0.4667rem 0.32rem 0.4rem;
+}
+
+.wuliu_info span {
+    font-size: 0.37rem;
+}
+
+.wuliu_info>div:nth-child(2) {
+    line-height: 1.28rem;
+}
+
+.track-rcol {
+    padding-top: 0.6667rem;
+    padding-left: 0.88rem;
+    position: relative;
+    margin-top: 5px;
+    background: #fff;
+}
+
+.track-list li {
+    position: relative;
+    padding: 0 0 0.6rem 0.6rem;
+    border-left: 1px solid #d9d9d9;
+    color: #999;
+}
+
+.track-list .track_active .node-icon {
+    background: #ff3366;
+    box-shadow: 0 0 10px 0 #ff86a4;
+}
+
+.track_active .txt {
+    color: #333;
+    font-size: 0.42rem;
+}
+
+.track-list .node-icon {
+    position: absolute;
+    left: -0.2667rem;
+    top: 0;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: #d1d1d1;
+    border-radius: 50%;
+}
+
+.track-list li:last-child {
+    border-left: none;
+}
+
+.track-list li .time {
+    margin-right: 20px;
+    position: relative;
+    top: 0px;
+    display: block;
+    vertical-align: middle;
+}
+
+.track-list li .txt {
+    position: relative;
+    top: 0px;
+    display: block;
+    vertical-align: middle;
+}
+
+.track-list li.first .time {
+    margin-right: 20px;
+}
+
+.empty_box {
+    text-align: center;
+    padding-top: 2rem!important;
+    background-color: transparent !important;
+    font-size: .37rem;
+}
+.empty_box img {
+    width: 30%;
+}
+.empty_box p {
+    margin: .3rem 0;
+    color: #cacaca;
+}

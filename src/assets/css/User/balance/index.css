@@ -1,0 +1,322 @@
+﻿/* 账户余额 */
+
+body {
+    background-color: #f5f5f5;
+}
+
+.get_dollar,.account_balance {
+    font-size: .4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.get_deposit_content {
+    padding: 0.533333rem 0.32rem 0.56rem 0.346667rem;
+    background: #fff;
+}
+
+.get_deposit_content h3 {
+    line-height: 0.8rem;
+    color: #333;
+}
+
+.get_deposit_content h3 span {
+    color: #FF4775;
+}
+
+.get_deposit_content>h3 {
+    color: #888;
+    font-size: 0.34rem;
+}
+
+.deposit_r a {
+    display: block;
+    width: 2.506667rem;
+    height: 1.013333rem;
+    border: 1px solid #FF4775;
+    text-align: center;
+    line-height: 1.013333rem;
+    color: #FF4775;
+    background: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.choice_balance {
+    margin-top: 0.133333rem;
+    background: #fff;
+    padding: 0 1.6rem 0;
+}
+.choice_balance div.cur {
+    border-bottom: 0.053333rem solid #FF4775;
+    color: #FF4775;
+}
+
+.choice_balance div {
+    position: relative;
+    width: 2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.balance_datail {
+    border-top: 1px solid #ededed;
+}
+
+.balance_datail ul li {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #ededed;
+    margin: 0 0.32rem;
+}
+
+.balance_datail ul li.desc {
+    font-size: .37rem;
+}
+
+.balance_datail ul li h3 {
+    color: #333;
+}
+
+.balance_datail ul li h3 {
+    line-height: 0.666667rem;
+}
+
+.balance_datail ul li div:nth-child(1) span {
+    font-size: .35rem;
+    line-height: 0.666667rem;
+}
+
+.balance_datail ul li div:nth-child(2) span {
+    font-size: 0.35rem;
+    color: #FF4775;
+    line-height: 0.666667rem;
+}
+
+.record {
+    border-top: 1px solid #ededed;
+}
+
+.record ul li {
+    border-bottom: 1px solid #ededed;
+}
+
+
+.record ul li .serial {
+    border-bottom: 1px solid #ededed;
+    margin: 0 0.32rem;
+}
+
+.record ul li .serial span {
+    line-height: 1.173333rem;
+}
+
+.record ul li .serial span:nth-child(1) {
+    color: #333;
+}
+
+.record ul li .serial span:nth-child(2) {
+    color: #FF4775;
+}
+
+.record_info {
+    padding: 0.373333rem 0.32rem 0.4rem;
+    font-size: .37rem;
+}
+
+.record_info span {
+    line-height: 0.586667rem;
+}
+
+.record_info span:nth-child(2n-1) {
+    padding-right: 0.24rem;
+}
+
+.record_info span:nth-child(2n) {
+    padding-right: 0.24rem;
+}
+
+.record_failure {
+    margin: 0 0.32rem;
+    border-top: 1px solid #ededed;
+    padding: 0.16rem 0 0.4rem;
+    font-size: .37rem;
+}
+
+.record_failure span {
+    color: #FF4775;
+    max-width: 65%;
+}
+
+.record_failure a {
+    display: block;
+    float: right;
+    width: 2.506667rem;
+    height: 1.013333rem;
+    border: 1px solid #888;
+    text-align: center;
+    line-height: 1.013333rem;
+    color: #888;
+    background: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+
+/* 余额提现 */
+
+.enter_info {
+    margin-top: 0.133333rem;
+    background: #fff;
+}
+
+.enter_info_content {
+    padding: 0.453333rem 0.32rem 0.4rem;
+}
+
+.enter_info .account_type {
+    position: relative;
+}
+
+.enter_info .account_type input {
+    width: 100%;
+    height: 1.013333rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    line-height: 1.013333rem;
+}
+
+.enter_info .account_type i {
+    display: inline-block;
+    position: absolute;
+    width: 0.64rem;
+    height: 0.64rem;
+    background: url('/app/images/Com/arrow_down@2x.png') no-repeat;
+    background-size: cover;
+    top: 20%;
+    right: 5%;
+}
+
+.account_item {
+    margin-top: 0.4rem;
+}
+
+.account_item input {
+    text-align: center;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    height: 1.013333rem;
+    line-height: 1.013333rem;
+    width: 48%;
+}
+
+.percent input {
+    width: 100%;
+}
+
+.get_security {
+    padding: 0.16rem 0.346667rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.get_security input {
+    border: none;
+    line-height: 1.066667rem;
+    width: 52%;
+}
+
+.get_security button {
+    width: 2.933333rem;
+    height: 1.066667rem;
+    border: none;
+    background: #ececec;
+    text-align: center;
+    line-height: 1.066667rem;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.error_tip {
+    padding: 0 0.346667rem;
+}
+
+.error_tip span {
+    color: #FF4775;
+    line-height: 1.066667rem;
+}
+
+.show_tip {
+    margin-top: 0.133333rem;
+    background: #fff;
+    padding: 0.453333rem 0.693333rem 0.693333rem 0.346667rem;
+    font-size: .35rem;
+}
+
+.show_tip span {
+    line-height: 0.56rem;
+}
+
+.submit_dollar {
+    border-top: 1px solid #ededed;
+}
+
+.submit_dollar {
+    padding: 0.266667rem 0;
+    background: #fff;
+    text-align: center;
+}
+
+.submit_dollar input {
+    width: 4rem;
+    height: 1rem;
+    text-align: center;
+    line-height:1rem;
+    background: #FF4775;
+    color: #fff;
+    border: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+.attributeselect{position: absolute;z-index: 9; width: 100%; height: 100%; top: 0; left: 0;filter:alpha(opacity=0);  -moz-opacity:0.0;  -khtml-opacity: 0.0; opacity: 0.0;}
+.dixian{
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    background: #fff;
+}
+.dixian span{
+    font-size: 0.32rem;
+    color: #666;
+    position: relative;
+}
+.dixian span::after{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    left: 3.3rem;
+}
+.dixian span::before{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    right: 3.3rem;
+}

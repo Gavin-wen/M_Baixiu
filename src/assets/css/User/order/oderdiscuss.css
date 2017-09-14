@@ -1,0 +1,205 @@
+﻿.goods_comment {
+    /*margin-top: 1.333333rem;*/
+}
+
+.goods_comment_list {
+    background: #fff;
+}
+
+.goods_comment_list>ul>li {
+    padding: 0.426667rem 0.32rem 0.32rem;
+    border-top: 1px solid #ededed;
+}
+
+.comment_list_t_l img {
+    width: 1.853333rem;
+    height: 1.853333rem;
+    border: 1px solid #ededed;
+    margin-right: 0.426667rem;
+}
+
+.comment_list_b_l {
+    max-width: 72%;
+    color: #333;
+}
+
+.comment_list_b_l span {
+    line-height: 0.64rem;
+}
+ .star_num5{
+    display: inline-block;
+    width: 125px;
+    height: 15px;
+    background: url("/app/images/Stars/icon_comment_star5@2x.png") no-repeat;
+    background-size: cover;
+}
+ .star_num4{
+    display: inline-block;
+    width: 125px;
+    height: 15px;
+    background: url("/app/images/Stars/icon_comment_star4@2x.png") no-repeat;
+    background-size: cover;
+}
+.star_num3{
+    display: inline-block;
+    width: 125px;
+    height: 15px;
+    background: url("/app/images/Stars/icon_comment_star3@2x.png") no-repeat;
+    background-size: cover;
+}
+.star_num2{
+    display: inline-block;
+    width: 125px;
+    height: 15px;
+    background: url("/app/images/Stars/icon_comment_star2@2x.png") no-repeat;
+    background-size: cover;
+}
+ .star_num1{
+   display: inline-block;
+    width: 125px;
+    height: 15px;
+    background: url("/app/images/Stars/icon_comment_star1@2x.png") no-repeat;
+    background-size: cover;
+}
+.goods_comment_list li .comment_text {
+    height: 4.746667rem;
+    margin-top: 0.64rem;
+    border: 1px solid #cccccc;
+}
+.comment_text textarea{
+    border: none;
+    width: 96%;
+    max-height: 1.333333rem;
+    resize: none;
+    overflow: hidden;
+    padding-left: 0.373333rem;
+    padding-top: 0.4rem;
+}
+.dis_star{
+    margin-top: 0.4rem;
+    display: inline-block;
+}
+.comment_text {
+    position: relative;
+}
+
+.comment_text ul {
+    position: absolute;
+    min-width: 9.653333rem;
+    bottom: 0.32rem;
+    left: 50%;
+    margin-left: -4.2rem;
+}
+
+.comment_text ul>li {
+    margin-right: 2%;
+    float:left;
+}
+
+.comment_text ul>li>i {
+    display: inline-block;
+    width: 1.36rem;
+    height: 1.36rem;
+    background: url('/app/images/MyNext/icon_comment_sharepic@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.comment_text ul>li>img {
+    display: inline-block;
+    width: 1.36rem;
+    height: 1.36rem;
+}
+
+.attitude {
+    margin-top: 0.133333rem;
+    background: #fff;
+}
+
+.attitude>div {
+    margin: 0 0.346667rem;
+    padding: 0.4rem 0;
+}
+.attitude>div:first-child{
+        border-bottom: 1px solid #ededed;
+}
+.attitude div i {
+    display: inline-block;
+    width: 125px;
+    height: 15px;
+    background-size: cover;
+}
+
+
+/* 百秀app_商品评价_晒图 */
+
+.show_goods {
+    margin-top: 1.333333rem;
+}
+
+.show_goods .goods_comment_list>ul>li {
+    padding: 0.426667rem 0.32rem 0.8rem;
+}
+
+ .submit_ruturn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.star_dis{
+    position: relative;
+    display: inline-block;
+}
+.star_list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+}
+    
+
+.star_list li {
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+}
+.service_att,
+.logistics_attr{
+    position: relative;
+    display:inline-block;
+}
+.rmkimg_item .js_delimg {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    background: #fe7c7a;
+    border-radius: 50%;
+    color: #fff;
+    z-index: 999;
+    text-align: center;
+    display: block;
+}
+.rmkimg_item{
+   position:relative;
+}
+/*底部样式*/
+ .submit_ruturn {
+    border-top: 1px solid #ededed;
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    margin: 0 auto;
+    padding: .2rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+.submit_ruturn .btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #ff3366;
+    border-radius: 20px;
+    font-size: .37rem;
+    padding: .2rem .4rem;
+}

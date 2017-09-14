@@ -1,0 +1,111 @@
+﻿
+body {
+    background-color: #f4f4f4;
+}
+
+.jifen_list {
+    background: #fff;
+}
+
+.jifen_list>ul>li {
+    width: 33.333%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 0.4rem 0;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.jifen_list span {
+    font-size: 0.4rem;
+    color: #333;
+}
+
+.jifen_active {
+    position: relative;
+}
+
+.jifen_active span {
+    color: #ff3366;
+}
+
+.jifen_active::after {
+    position: absolute;
+    content: "";
+    width: 1.066667rem;
+    height: 0.053333rem;
+    bottom: 0;
+    background: #ff3366;
+    left: 50%;
+    margin-left: -0.533333rem;
+}
+
+.jifen_mx {
+    width: 100%;
+    font-size: .35rem;
+}
+
+.jifen_mx_item {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+
+.jifen_mx_item td {
+    color: #333;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.4rem 0.2rem;
+    vertical-align: middle;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.dixian{
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+.dixian span{
+    font-size: 0.32rem;
+    color: #666;
+    position: relative;
+}
+.dixian span::after{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    left: 3.3rem;
+}
+.dixian span::before{
+    width: 1.44rem;
+    height: 1px;
+    background: #999;
+    content: " ";
+    position: absolute;
+    bottom: 0.24rem;
+    right: 3.3rem;
+}
+
+.empty_box {
+    text-align: center;
+    font-size: .37rem;
+}
+
+.empty_box td {
+    padding-top: 2rem;
+}
+
+.empty_box img {
+    width: 30%;
+}
+
+.empty_box p {
+    margin-top: .5rem;
+    color: #cacaca;
+}

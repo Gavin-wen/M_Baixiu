@@ -1,0 +1,135 @@
+﻿/*!
+* reset.css V1.3
+* Update 2015-05-22
+*/
+
+/* 重定义，包括HTML5标签 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+    /* 阻止旋转屏幕时自动调整字体大小 */
+    -webkit-text-size-adjust:none;
+    /* 解决字体在移动端比例缩小后出现锯齿的问题 */
+    -webkit-font-smoothing: antialiased;
+    /* 移动端取消touch高亮效果 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+input, textarea, select{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+i{ font-style: normal;}
+b{ font-weight: normal;}
+
+/* 默认字体颜色 */
+body{ color:#888888;}
+
+
+/* 默认字体 */
+* {
+    font-family: 'Microsoft YaHei';
+}
+body,
+button, input, select, textarea {
+    font:14px/1.5 Microsoft YaHei,arial,\5b8b\4f53;*line-height:1.5;
+    -webkit-appearance: none; 
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+
+/* 重置列表元素 */
+ul, ol {
+    list-style: none;
+}
+
+
+/* 重置文本格式元素 */
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #888888;
+    /* 消除被点击元素的外观变化，所谓的点击后高亮 */
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+a:hover {
+    /*text-decoration: underline;*/
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+
+/* 重置表单元素 */
+fieldset, img {
+    border: none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+select, input, button, button img, label {
+    vertical-align: middle;
+}
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+input::-ms-clear{display:none;}     /* 清除IE10的叉 */
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+

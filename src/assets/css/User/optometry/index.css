@@ -1,0 +1,151 @@
+﻿body {
+    background-color: #f5f5f5;
+}
+/*导航条按钮样式*/
+.op_btn {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: auto;
+    right: 0.2rem;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    -webkit-transform: translate3d(0, -50%, 0);
+    -moz-transform: translate3d(0, -50%, 0);
+    min-width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #333;
+    font-size:0.32rem;
+}
+.default {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.426667rem;
+    color: #fff;
+    background: #ff3366;
+    line-height: 0.426667rem;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 0.106667rem;
+}
+.my_prescription span {
+    color: #333;
+}
+
+.prescription_list li {
+    background: #fff;
+    margin-top: 5px;
+}
+
+.prescription_item {
+    margin: 0 0.32rem;
+}
+
+.prescription_item_t {
+    padding: 0.44rem 0 0.546667rem;
+}
+
+.prescription_item_t span {
+    font-size: 0.373333rem;
+}
+
+.prescription_item_b {
+    padding-bottom: 0.306667rem;
+    font-size:0.363rem;
+}
+
+.left_eye {
+    padding-bottom: 0.44rem;
+}
+
+.left_eye span,
+.right_eye span {
+    margin-right: 0.56rem;
+}
+
+.my_prescription .submit_ruturn {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.prescription_item .my_site_item_set {
+    margin: 0 0;
+}
+/*验光单列表样式*/
+.my_site_item_set {
+    margin: 0 0.346667rem;
+    padding: 0.266667rem 0;
+    border-top: 1px solid #ededed;
+    color: #333;
+}
+
+.my_site_item_set i,
+.my_site_item_set span {
+    display: inline-block;
+}
+
+.my_site_item_set div:nth-child(1) i {
+    width: 0.54rem;
+    height: 0.54rem;
+    background: url('/app/images/Com/icon_unselected@2x.png') no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 0.266667rem;
+}
+
+.my_site_item_set div:nth-child(2) i {
+    width: 0.586667rem;
+    height: 0.586667rem;
+    vertical-align: text-bottom;
+    margin-right: 0.266667rem;
+}
+
+.my_site_item_set div:nth-child(2) i:nth-child(1) {
+    background: url('/app/images/My/my_optometry_eidt@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.my_site_item_set div:nth-child(2) i:nth-child(3) {
+    background: url('/app/images/My/my_optometry_delete@2x.png') no-repeat;
+    background-size: cover;
+}
+
+.my_site_item_set div:nth-child(2) span:nth-child(2) {
+    margin-right: 0.266667rem;
+}
+.my_site_item_set .selected{
+    background: url('/app/images/Com/icon_selected@2x.png') no-repeat  !important;
+    background-size:100% 100% !important;
+}
+.empty_box{
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 0.32rem;
+}
+.empty_box img{
+    width:30%;
+    margin-bottom:0.4rem;
+}
+/*底部样式*/
+ .submit_ruturn {
+    border-top: 1px solid #ededed;
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    margin: 0 auto;
+    padding: .2rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+.submit_ruturn .btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #ff3366;
+    border-radius: 20px;
+    font-size: .37rem;
+    padding: .2rem .4rem;
+}
+

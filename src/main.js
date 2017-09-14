@@ -12,8 +12,8 @@ Vue.config.productionTip = false
 // Vue.use(VueResource)
 
 // 将全局样式文件写在 main.js
-import '@/assets/scss/reset.scss'
-import '@/assets/scss/iconfont.scss'
+import '@/assets/css/common.css'
+import '@/assets/css/swiper/swiper.css'
 import '@/assets/ali-fonts/iconfont.css'
 
 // Mint UI
