@@ -5,7 +5,7 @@
       <input type="text" placeholder="请输入搜索内容" @focus="toSearchinfo" />
     </div>
     <div class="fr">
-      <i></i>
+      <a href="/default/message"></a>
     </div>
   </div>
 </template>

@@ -12,9 +12,9 @@ Vue.config.productionTip = false
 // Vue.use(VueResource)
 
 // 将全局样式文件写在 main.js
-import '@/assets/css/common.css'
-import '@/assets/css/swiper/swiper.css'
 import '@/assets/ali-fonts/iconfont.css'
+import global_ from './components/base/global/global'
+Vue.prototype.GLOBAL = global_
 
 // Mint UI
 import Mint from 'mint-ui'
