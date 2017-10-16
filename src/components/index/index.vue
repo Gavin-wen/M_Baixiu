@@ -89,7 +89,7 @@ export default {
       var parm = {
         versionNo: 'A1.0.0'
       }
-      axios.post(this.GLOBAL.apiurl + 'api/Home/GetHomePage?versionNo=A1.0.0', qs.stringify(parm)).then(res => {
+      axios.post(this.GLOBAL.apiurl + 'api/Home/GetHomePage?versionNo=A1.1.0', qs.stringify(parm)).then(res => {
         console.log('来面试啊')
         console.log('面试邮箱 kede@qq.com')
         if (res.data.State === true) {
